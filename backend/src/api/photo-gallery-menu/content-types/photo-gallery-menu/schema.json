@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photo_gallery_menus",
+  "info": {
+    "singularName": "photo-gallery-menu",
+    "pluralName": "photo-gallery-menus",
+    "displayName": "Photo Gallery Menu"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gallery": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

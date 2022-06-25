@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photo_gallery_about_uses",
+  "info": {
+    "singularName": "photo-gallery-about-us",
+    "pluralName": "photo-gallery-about-uses",
+    "displayName": "Photo Gallery About Us"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
