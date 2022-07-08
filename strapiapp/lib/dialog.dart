@@ -32,7 +32,7 @@ class DialogsUser {
     Widget yesB = TextButton(
         child: Text("Sim"),
         onPressed: () {
-          Navigator.of(context).pop();
+          //Navigator.of(context).pop();
 
           ///autenticate a user by sending a post request to auth/local api
           var urlRegister =
